@@ -1,0 +1,28 @@
+<form (ngSubmit)="adicionar()" class="form">
+       <label>Nome</label>
+       <input type="text"  name="nome" 
+              [(ngModel)]="produto.nome"
+              class="form-control">
+       <label>Descricao</label>
+       <input type="descricao" name="descricao" 
+              [(ngModel)]="produto.descricao"
+              class="form-control">
+       <label>Valor</label>
+       <input type="text" name="valor" 
+              [(ngModel)]="produto.valor"
+              class="form-control">
+       <label>Estoque</label>
+       <input type="text" name="estoque" 
+              [(ngModel)]="produto.estoque"
+              class="form-control">
+       <label>Status</label>
+       <input type="text" name="status" 
+              [(ngModel)]="produto.status"
+              class="form-control">
+       <label>CarrinhoId</label>
+       <input type="text" name="carrinhoid" 
+              [(ngModel)]="produto.carrinhoid"
+              class="form-control">
+       <button type="submit"
+              class="btn btn-primary m-2">Enviar</button>
+</form>

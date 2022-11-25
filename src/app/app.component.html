@@ -1,0 +1,26 @@
+<div>
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <ul class="navbar-nav">
+      <li class="navbar-item">
+        <h1 style="color: white;">{{title}}</h1>
+      </li>
+      <li class="navbar-item">
+        <a class="nav-link" routerLink="listaProduto">
+        Listagem</a>
+      </li>
+      <li class="navbar-item">
+        <a class="nav-link" routerLink="dadosProduto">
+        Novo</a>
+      </li>
+      <li class="navbar-item">
+        <a class="nav-link" routerLink="siteProduto">
+        Produtos</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+
+</div>
